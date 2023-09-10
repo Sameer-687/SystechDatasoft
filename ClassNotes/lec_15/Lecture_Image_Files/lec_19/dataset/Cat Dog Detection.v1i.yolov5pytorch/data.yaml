@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cat', 'dog']
+
+roboflow:
+  workspace: cpsd-edge
+  project: cat-dog-detection-kvnvq
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/cpsd-edge/cat-dog-detection-kvnvq/dataset/1
